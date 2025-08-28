@@ -1,0 +1,137 @@
+---
+title: "R Scavenger Hunt (DA 101 Lab 0)"
+author: "[remove brackets and add your name here]"
+format:
+  html:
+    theme: simple
+    echo: true
+    code-fold: false
+    self-contained: true
+page-layout: full
+toc: true
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.align = 'center', out.width = '90%')
+```
+
+## Scavenger Hunt Questions 
+
+You are allowed to use Google, the _R4DS_ textbook, `Swirl` package lessons, and help files in R for this assignment. You are not permitted get answers from another person or to use AI tools such as chatGPT as the point, for now, is to tinker and learn, not have someone or something else do our work for us. (We will discuss critical and ethical practices for working with AI later in the semester.)
+
+1. **(Sample Question) Include a code cell below that will display the result of the mathematical operation 1 + 1**
+
+```{r}
+# this is the correct answer ... the code and its output will display in the rendered HTML
+1 + 1
+```
+
+2. **Print the version of R you're using**
+
+```{r}
+# fill in your answer below
+```
+
+3. **Find and print the current date** 
+
+```{r}
+# fill in your answer below
+```
+
+4. **Create a variable called `myvar` and set it to the value "Hello, DA 101"**
+
+```{r}
+# fill in your answer below
+```
+
+5. **Using the `class` function, print the data type of `myvar`**
+
+```{r}
+# fill in your answer below
+```
+
+6. **Use the `paste` function to display the contents of `myvar` with an exclamation point added to the end of it**
+
+```{r}
+# fill in your answer below
+```
+
+7. **Write a code block that contains only R comments**
+
+```{r}
+# fill in your answer below
+```
+
+8. **Print the current working directory**
+
+```{r}
+# fill in your answer below
+```
+
+9. **Using R commands, create a subfolder in your current directory called 'data', and change your working directory to that subfolder**
+
+```{r}
+# fill in your answer below
+```
+
+10. **Using R commands, create a file called `test.md` in your working directory (the `data` subfolder)**
+
+```{r}
+# fill in your answer below
+```
+
+11. **List all the files in the current location (the `data` subfolder)**
+
+```{r}
+# fill in your answer below
+```
+
+12. **Install the tidyverse package**
+
+```{r}
+# fill in your answer below
+```
+
+13. **Load the tidyverse library**
+
+```{r}
+# fill in your answer below
+```
+
+14. **Load the built-in mpg dataset from the tidyverse library**
+
+```{r}
+# fill in your answer below
+```
+
+15. **Print the dimensions of `mpg` using the `dim` function**
+
+```{r}
+# fill in your answer below
+```
+
+16. **Paste all the code needed to display the `my_bar_plot` example from R4DS found in "Workflow: basics > 2.5 Exercises > Item 4", which uses the `mpg` dataset** 
+
+__Hint:__ Do not save the plot as a png ... use only the part of the R4DS code that will display the plot in your rendered HTML
+
+```{r}
+# fill in your answer below
+```
+
+17. **Build on the `my_bar_plot` example by making each bar in the bar plot a different color**
+
+__Hint:__ You should only need to make one small change to display different colors for each bar ... feel free look ahead in the _R4DS_ book or to Google this one
+
+```{r}
+# fill in your answer below
+```
+
+18. **Generate an error by trying to divide a string by a number (then comment out the line of code that errors so that your Quarto document will render)**
+
+
+```{r}
+# fill in your answer below
+```
+
+__Note:__ To learn more about Quarto see <https://quarto.org>.
